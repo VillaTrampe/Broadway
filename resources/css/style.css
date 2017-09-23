@@ -1,20 +1,19 @@
-html{
+body{
   font-family: helvetica;
   text-align: center;
 }
 #image {
-  background-image: url(/Users/agnestrampe/Documents/projects/Broadway/resources/images/the-flatiron-building.png);
+  background-image: url("../images/the-flatiron-building.png");
+  background-repeat: no-repeat;
+}
+#image {
+  font-size: 18px;
+  color: white;
 }
 h1{
-  font-family: helvetica;
   font-size: 70px;
   font-weight: bold;
   color: white;
-}
-h5{
-  font: helvetica;
-  font-size: 18px;
-  font: white;
 }
 h2 {
   font-size: 32px;
@@ -28,11 +27,11 @@ h3{
   font-size: 23;
   font-weight: bold;
   color: white;
-  background-image: url(/Users/agnestrampe/Documents/projects/Broadway/resources/images/the-flatiron-building.png);
+  background-image: url("../images/the-flatiron-building.png");
   background-size: cover;
 }
 .footer p{
-  background-image: url(/Users/agnestrampe/Documents/projects/Broadway/resources/images/the-flatiron-building.png);
+  background-image: url("../images/the-flatiron-building.png");
   text-align: left;
   font-size: 11px;
   color: white;

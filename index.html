@@ -1,20 +1,25 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <nav id="top">
+    </nav>
     <title>Broadway Designs</title>
     <link href="./resources/css/style.css" type="text/css" rel="stylesheet">
   </head>
   <body>
-    <nav>
+      <nav id="top">
+      </nav>
       <div id="image">
-        <h1>Broadway Design</h1>
-          <a href="#home">Home</a></br>
-          <a href="#about">About</a></br>
-          <a href="#work">Work</a></br>
-          <a href="#team">Team</a></br>
-          <a href="#contact">Contact</a></br>
+          <h1>Broadway Design</h1>
+        <nav>
+          <p><a class="topnav" href="#top">Home</a></p>
+          <p><a class="topnav" href="#about">About</a></p>
+          <p><a class="topnav" href="#work">Work</a></p>
+          <p><a class="topnav" href="#team">Team</a></p>
+          <p><a class="topnav" href="#contact">Contact</a></p
+    <!-- the nav portion was borrowed from @razelle /My assumption is that these links will lead to different sections of the SAME page-->
+        </nav>
       </div>
-    </nav>
       <div id="about">
         <h2>Our Process</h2>
         <img src="./resources/images/identity_icon.png"/ alt="80" width="80">
@@ -23,7 +28,7 @@
         <img src="./resources/images/understand_icon.png"/ alt="80" width="80">
         <h3>Understand</h3>
         <p>We study our projects inside and out.</p>
-        <img src="./resources/images/execute_icon.png"/ alt="80" width="80">
+        <img  src="./resources/images/execute_icon.png"/ alt="80" width="80">
         <h3>Execute</h3>
         <p>We put everything we have into our work.</p>
       </div>
@@ -46,8 +51,14 @@
       </div>
     <nav>
     <div class="footer">
-      <p> &#169 Broadway 2017 <a href="#home">Home</a> <a href="#about">About</a> <a href="#work">Work</a> <a href="#team">Team</a> <a href="#contact">Contact</a></p>
-    </div>
+      <!-- the nav portion was borrowed from @razelle /My assumption is that these links will lead to different sections of the SAME page-->
+        <nav> &#169 Broadway 2017
+          <a class="bottomnav" href="#top">Home</a>
+          <a class="bottomnav" href="#about">About</a>
+          <a class="bottomnav" href="#work">Work</a>
+          <a class="bottomnav" href="#team">Team</a>
+          <a class="bottomnav" href="#contact">Contact</a>
+      </div>
     </nav>
   </body>
 </html>
